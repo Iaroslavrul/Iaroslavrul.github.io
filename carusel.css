@@ -1,0 +1,39 @@
+div#carusel img{
+    margin: 0 auto;
+}
+
+div#carusel-footer{
+    text-align: center;
+    padding: 20px 0;
+}
+
+div#carusel-footer > span{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+div#arrowRight>img, div#arrowLeft>img{
+    width: 100px;
+}
+
+div#carusel{
+    position: relative;
+    cursor: pointer;
+}
+
+div#arrowLeft>img{
+    position: absolute;
+    top: 25%;
+    left: 400px;    
+}
+
+div#arrowRight>img{
+    position: absolute;
+    top: 25%;
+    left: 1020px;    
+}
